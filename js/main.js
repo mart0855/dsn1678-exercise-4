@@ -15,7 +15,7 @@ $win.on('scroll', function () {
 	$sun.css('transform', 'rotate(' + scrollPos / 5 + 'deg)');
 	$sunSection.css('background-position', 'center ' + scrollPos / 2 + 'px');
 	
-	$shipsSection.css('background-position', 'center ' + scrollPos / 2 + 'px');
+	$shipsSection.css('background-position', 'center ' + scrollPos / 2 + ' px');
 
 });
 

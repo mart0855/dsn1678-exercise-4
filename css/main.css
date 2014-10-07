@@ -14,6 +14,8 @@ section {
 	padding: 10rem 0;
 }
 
+/*---------------------Sun------------------------*/
+
 .sun {
 	width: 300px;
 }
@@ -22,6 +24,8 @@ section {
 	background: transparent url("../img/mars-pano.jpg") no-repeat center top;
 	background-size: cover;
 }
+
+/*---------------------Dipper------------------------*/
 
 .dipper {
 	width: 200px;
@@ -48,6 +52,8 @@ section {
 	}
 }
 
+/*---------------------Shuttle------------------------*/
+
 .shuttle-section {
 	background: #f6a500;
 }
@@ -58,19 +64,21 @@ section {
 	}
 	
 .js-shuttle-animate {
-	-webkit-animation: shuttle-animate .5s linear forwards;
+	-webkit-animation: shuttle-animate 1s ease-out forwards;
 }
 
 @-webkit-keyframes shuttle-animate {
 	0% {
 		opacity: 0;
-		transform: translateY(100px);
+		transform: translateY(140px);
 	}
 	100% {
 		opacity: 1;
 		transform: translateY(0px);
 	}
 }
+
+/*---------------------Ships------------------------*/
 
 .ships-section {
 	background: transparent url("../img/kasei-valles-canyons.jpg") no-repeat center top;
@@ -91,7 +99,6 @@ section {
 .ships img {
 	width: 140px;
 	opacity: 0;
-	transform: translateY(140px);
 }
 
 .js-ships-animate {
