@@ -11,11 +11,10 @@ var $ships = $('.ships img');
 
 $win.on('scroll', function () {
 	var scrollPos = $win.scrollTop();
-	//var scrollPos2 = $win.scroll();
-	
+
 	$sun.css('transform', 'rotate(' + scrollPos / 5 + 'deg)');
 	$sunSection.css('background-position', 'center ' + scrollPos / 2 + 'px');
-	
+
 	$shipsSection.css('background-position', 'center ' + (scrollPos - 2000) / 2 + 'px');
 
 });
@@ -23,7 +22,7 @@ $win.on('scroll', function () {
 $dipperSection.waypoint(function () {
 	$dipper.addClass('js-dipper-fade');
 }, { offset: '50%' });
-	
+
 $shuttleSection.waypoint(function () {
 	$shuttle.addClass('js-shuttle-animate');
 }, { offset: '50%' });
