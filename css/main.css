@@ -81,7 +81,7 @@ section {
 /*---------------------Ships------------------------*/
 
 .ships-section {
-	background: transparent url("../img/kasei-valles-canyons.jpg") no-repeat center top;
+	background: transparent url("../img/kasei-valles-canyons.jpg") no-repeat;
 	background-size: cover;
 }
 

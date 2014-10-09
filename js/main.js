@@ -11,11 +11,12 @@ var $ships = $('.ships img');
 
 $win.on('scroll', function () {
 	var scrollPos = $win.scrollTop();
+	//var scrollPos2 = $win.scroll();
 	
 	$sun.css('transform', 'rotate(' + scrollPos / 5 + 'deg)');
 	$sunSection.css('background-position', 'center ' + scrollPos / 2 + 'px');
 	
-	$shipsSection.css('background-position', 'center ' + scrollPos / 2 + ' px');
+	$shipsSection.css('background-position', 'center ' + (scrollPos - 2000) / 2 + 'px');
 
 });
 
